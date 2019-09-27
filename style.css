@@ -1,0 +1,47 @@
+main {
+    width: 960px;
+    margin: 20px auto;
+    border: 5px solid black;
+    padding: 45px;
+}
+
+div {
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+.light-gray {
+    background-color: lightgray;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
+
+.dark-gray {
+    background-color: darkgray;
+}
+
+.light-green {
+    background-color: lightgreen;
+}
+
+.bold-para {
+    font-weight: 700;
+}
+
+/* box-sizing */
+
+.content, .border {
+    outline: 1px solid red;
+    background-color: chocolate;
+    margin: 20px;
+    width: 300px;
+    padding: 45px;
+    border: 20px solid black;
+}
+
+.border {
+    box-sizing: border-box;
+}
